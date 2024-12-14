@@ -30,7 +30,7 @@ Create new column to categorize "cloudy","few clouds","clear","Broken Clouds" as
 step 4:
 - create new column called Time to present time as 24 hours clock, and time number is created for ranking the time column 
 
-- Dax function was written to create new column 
+- Dax function was written to create new column
 ![image2](https://github.com/user-attachments/assets/bf83c88c-7445-4878-bb5a-52dfda157fd6)
 
 Step 5:
@@ -39,7 +39,8 @@ Step 5:
 step 6:
 Create table "calendar" for representing Date in terms of year,month,quarter,_weekday/_weekend and day.
 
-- Dax function is written to create new  column                                    ![image3](https://github.com/user-attachments/assets/40663ab2-644b-459e-b1d8-388be04afa26)
+- Dax function is written to create new  column
+- ![image3](https://github.com/user-attachments/assets/40663ab2-644b-459e-b1d8-388be04afa26)
 
 - On the model view, create many and one Relationship between timestamp column (date/time format)in london_bike_sharing table and date column in calandar table. 
 
