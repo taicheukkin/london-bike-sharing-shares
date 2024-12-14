@@ -21,6 +21,7 @@ Step 1: replace integer as text in column
 step2 :Create new column called weather to indicate meaning of weather code column.
 
 - Dax function was written to create new column
+
 ![image](https://github.com/user-attachments/assets/ee7376d8-e857-49d6-920b-1f05cef45e55)
 
 step 3:
@@ -31,7 +32,8 @@ step 4:
 - create new column called Time to present time as 24 hours clock, and time number is created for ranking the time column 
 
 - Dax function was written to create new column
-![image2](https://github.com/user-attachments/assets/bf83c88c-7445-4878-bb5a-52dfda157fd6)
+
+![image](https://github.com/user-attachments/assets/bf83c88c-7445-4878-bb5a-52dfda157fd6)
 
 Step 5:
 - Create group for actual temperature(10 bins),perceived temperature（10 bins） wind speed(10 bins) 
@@ -40,7 +42,8 @@ step 6:
 Create table "calendar" for representing Date in terms of year,month,quarter,_weekday/_weekend and day.
 
 - Dax function is written to create new  column
-- ![image3](https://github.com/user-attachments/assets/40663ab2-644b-459e-b1d8-388be04afa26)
+
+![image](https://github.com/user-attachments/assets/40663ab2-644b-459e-b1d8-388be04afa26)
 
 - On the model view, create many and one Relationship between timestamp column (date/time format)in london_bike_sharing table and date column in calandar table. 
 
@@ -62,12 +65,14 @@ Step 8：calculate the daily and monthly moving average in table for analyzing a
 - create month and selectedmonths for skateholders to select the number of monthly moving average 
 
 Dax function creating  month and selectedmonths is written below
+
 ![image](https://github.com/user-attachments/assets/a277d6ba-5b39-4f32-beb1-9b81482421c2)
 
 ![image7](https://github.com/user-attachments/assets/07ff60f5-fe77-4f57-862d-ff0ab7622f05)
 
 
 - Create two measure for calculating and checking monthly moving average of london_bike_sharing_shares
+
 ![image](https://github.com/user-attachments/assets/15488b85-64c5-4062-b17f-73e0f17a7181)
 
 ![image](https://github.com/user-attachments/assets/62bfa239-e98d-4a55-8ee7-e4bb9c205879)
@@ -75,6 +80,7 @@ Dax function creating  month and selectedmonths is written below
 - Repeating the same step as monthly moving average for creating daily moving average of london_bike_sharing_shares
 
 Dax function for creating daily moving average is written below
+
  -![image](https://github.com/user-attachments/assets/fc678c02-9215-40e0-91f1-55a790a6df3e)
 
  -![image](https://github.com/user-attachments/assets/a4420431-0eb7-4fa8-b3b5-cdf38acb26e3)
@@ -85,13 +91,15 @@ Dax function for creating daily moving average is written below
 
 
 step 9 calculate correlation
-- correlation between actual_temperature and monthly moving average london_bike_sharing_shares is calculated over 24 months in 2 years , the dax function is written below
+- correlation between actual_temperature and monthly moving average london_bike_sharing_shares is calculated over 24 months in 2 years ,
+the dax function is written below
 ![image](https://github.com/user-attachments/assets/64bb9272-6bcf-42e6-81cf-571d142edd23)
 
 ![image](https://github.com/user-attachments/assets/70a43b9f-949b-49b5-9533-e83f51a65ea9)
 
 
-- correlation between wind_speed(10 bins) and average of london_bike_sharing_shares is calculated over daytime, the dax function is written below
+- correlation between wind_speed(10 bins) and average of london_bike_sharing_shares is calculated over daytime,
+- the dax function is written below
 
 ![image](https://github.com/user-attachments/assets/1eabbd37-25b0-40b5-b167-90889fb592a8)
 ![image](https://github.com/user-attachments/assets/bdaf21a0-8ee1-4775-a724-4662c4ac4709)
