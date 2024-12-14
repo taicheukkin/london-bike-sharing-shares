@@ -1,5 +1,5 @@
 # london-bike-sharing-shares
-The dashboard help business make sense of the relationship between weather and sport, in order to allocate resource in specified weather condition or time to optimize the revenue effectively. In detail, how the time and weather in determining the bike sharing shares between 2015 and 2017 was analyzed by Powerbi
+The operational dashboard help business make sense of the relationship between weather and sport, in order to allocate resource in specified weather condition or time to optimize the revenue effectively. In detail, how the time and weather in determining the bike sharing shares between 2015 and 2017 was analyzed by Powerbi
 
 # data cleaning 
 
@@ -25,11 +25,11 @@ step2 :Create new column called weather to indicate meaning of weather code colu
 ![image](https://github.com/user-attachments/assets/ee7376d8-e857-49d6-920b-1f05cef45e55)
 
 step 3:
-Create new column to categorize "cloudy","few clouds","clear","Broken Clouds" as Good weather as well as "Light rain,snowball,rain with thunderstorm as b0ad weather
+Create new column to categorize "cloudy","few clouds","clear","Broken Clouds" as Good weather as well as "Light rain,snowball,rain with thunderstorm as bad weather
 
 
 step 4:
-- create new column called Time to present time as 24 hours clock, and time number is created for ranking the time column 
+- create new column called Time to present time as 24 hours clock, and time number was created for ranking the time column 
 
 - Dax function was written to create new column
 
@@ -104,6 +104,11 @@ the dax function is written below
 ![image](https://github.com/user-attachments/assets/1eabbd37-25b0-40b5-b167-90889fb592a8)
 ![image](https://github.com/user-attachments/assets/bdaf21a0-8ee1-4775-a724-4662c4ac4709)
 
+- correlation between actual_temperature(10 bins) and average of london_bike_sharing_shares is calculated over daytime,
+- the dax function is written below
+
+
+
 # Data visualization
 Dashboard1：Overview
 ![image](https://github.com/user-attachments/assets/0b8aef59-225e-4d36-b285-33f60f434f8e)
@@ -126,7 +131,7 @@ The y_axis of histogram display frequency of wind_speed. The x_axis represent wi
 
 figure 1.4
 ![image](https://github.com/user-attachments/assets/ef425e49-a495-4c00-b346-6c1576e8a78f)
-The y_axis of two histogram display frequency of actual_temperature and perceived temperature respectively . The x_axis represent width of bar of actual and perceived temperature shown on the Table.The top three occurance of actual_temperature range(5.20-8.79,8.80-12.39,12.40-15.99) is occupied for 15.59%,25.20% and 20.54% respectively. Similarliy,The top two occurance of percieved_temperature range(6-9,14-17) is occupied for 14.87%,24.57%respectively.The distribution of percieved_temperature histogram appears slightly skewed to the right as comparaed to actual_temperature histogram, However,both histogram suggesting both percieved and actual temperature (smaller than 17) has occupied the majority of the data.  
+The y_axis of two histogram displayed the frequency of actual_temperature and perceived temperature respectively . The x_axis represent the width of bar of actual and perceived temperature shown on the Table.The top three  percentage of actual_temperature range(5.20-8.79,8.80-12.39,12.40-15.99)was comprised 15.59%,25.20% and 20.54% respectively. Similarliy,The top two occurance of percieved_temperature range(6-9,14-17) comprised 14.87%,24.57%.respectively.The distribution of percieved_temperature histogram appears slightly skewed to the right as comparaed to actual_temperature histogram, However,both histogram suggesting both percieved and actual temperature (smaller than 17) accounted for the majority of the data.  
 
 Dashboard2:seasonal trend of london_bike_sharing_shares
 
@@ -136,7 +141,7 @@ Monthly moving average of london bike sharing shares has calculated for smoothin
 
 figure 2.1
 ![image](https://github.com/user-attachments/assets/94960591-27ec-47fc-b250-60d0c386eaee)
-The Monthly moving average slicer allows users to choose number of monthly moving average to identify monthly,seasonal or half-year trend is existed in the london_bike_sharing_shares.The default value is 4 monthly moving average
+The Monthly moving average slicer allows users to choose number of monthly moving average to identify monthly,seasonal or half-year trend was existed in the london_bike_sharing_shares.The default value is 4 monthly moving average
 
 
 The Season slicer allows user to identify which 3 months is corresponding to season
@@ -183,7 +188,7 @@ figure 3.4
 figure 3.5
 ![image](https://github.com/user-attachments/assets/44c67f7a-ff01-437f-bcd4-b080d3562fe0)
 
-The bar chart showed the daytime trend of average bike sharing share.Overall,8am, 5am,6am are top 3 daytime in terms of  average bike sharing shares in figure1.The trend are similar when it is weekend in figure 2. In figure 3 and 4, the rise and fall trend was observed between 7 am
+The bar chart showed the daytime trend of average bike sharing share.Overall,8am, 5am,6am are top 3 daytime in terms of  average bike sharing shares in figure3.2.The trend were similar when it was weekend in figure 3.3. In contrast,In figure 3.4 and 3.5, the rise and fall trend was observed between 7 am
 and 11:00 pm, the average london_bike_sharing_shares increased gradual at 7am ,leveled off 12 pm,followed by gradual decrease from 2pm to 11pm.
 
 
@@ -191,7 +196,7 @@ and 11:00 pm, the average london_bike_sharing_shares increased gradual at 7am ,l
 figure 3.6
 ![image](https://github.com/user-attachments/assets/3dd0a0d3-ddf2-422c-8c47-e0d90aec6e36)
 Overall,
-the x_axis and y_axis of bar chart is the date at the daily level and daily_moving_average respectively.The green and blue color bar represent the calculation of daily moving average involving weekend or non-weekend respectively.By adjusting day slicers, it is found that typically 5 blue bar chart with smaller daily_moving_average followed by green bar chart with higher daily_moving_average in 2_day moving average. It is implied There has between seasonal trend between weekday and weekend.
+the x_axis and y_axis of bar chart is the date at the daily level and daily_moving_average respectively.The green and blue color bar represent the calculation of daily moving average involving weekend or non-weekend respectively.By adjusting day slicers, it is found that typically 5 blue bar chart with smaller daily_moving_average followed by green bar chart with higher daily_moving_average in 2_day moving average. It is implied There were association between seasonal trend between weekday and weekend.
 
 
 Although the most month follow seasonal trend, Juanary and December were the exception.
@@ -204,15 +209,15 @@ figure 3.8
 
 figure 3.9
 ![image](https://github.com/user-attachments/assets/b6ce3b93-7b9f-4af1-97ee-60eb5467961d)
-In figure 1,in 26th December,2016,the 2-day monthly_moving_average involving non_weekend is higher than weekend. The trend is not discovered in 2015 in figure 2. By adjusting is_holiday and is_weekend slicer to Yes and daily_moving_average to 1, it is discovered that 26th December,2016 is holiday in figure 3,but not weekend. It means holiday(26th December,2016) contribute the largest proportion to non_weekend when calculating daily_moving_average. 
+In figure 1,in 26th December,2016,the 2-day monthly_moving_average involving non_weekend was higher than weekend. The trend was not discovered in 2015 in figure 2. By adjusting is_holiday and is_weekend slicer to Yes and daily_moving_average to 1, it is discovered that 26th December,2016 is holiday in figure 3,but not weekend. It means holiday(26th December,2016) contributed the largest proportion to non_weekend when calculating daily_moving_average. 
 
 figure 3.10
 ![image](https://github.com/user-attachments/assets/423f243b-e9cd-430d-a2b2-769df8a03aed)
 
 figure 3.11
 ![image](https://github.com/user-attachments/assets/bed4d33d-b225-4bf6-8254-07a9550e8343)
-same logic applied 1st and 2nd Juanary 2016 and 2017,the 2-day monthly_moving_average involving non_weekend is higher than weekend in 2016,By adjusting is_holiday and is_weekend slicer to Yes and daily_moving_average to 1 again,it is discovered that 1st and 2nd Juanary 2016 is holiday in figure 3,but not weekend.
-Therefore the proportion of moving avereage of holiday is considered as non_weekend. In contrast,the 2-day monthly_moving_average involving non_weekend is drastically lower than weekend in 2016.The possible explanaiton is 1st and 2nd Juanary 2017 was holiday in essence,but since it was weekend as well that is not applicable to the definition of holiday and non_weekend, but weekend.
+same logic applied 1st and 2nd Juanary 2016 and 2017,the 2-day monthly_moving_average involving non_weekend was higher than weekend in 2016,By adjusting is_holiday and is_weekend slicer to Yes and daily_moving_average to 1 again,it is discovered that 1st and 2nd Juanary 2016 was holiday in figure 3,but not weekend.
+Therefore the proportion of moving avereage of holiday was considered as non_weekend. In contrast,the 2-day monthly_moving_average involving non_weekend is drastically lower than weekend in 2016.The possible explanaiton was 1st and 2nd Juanary 2017 was holiday in essence,but since it was weekend as well that is not applicable to the definition of holiday and non_weekend, but weekend.
 
 Implication
 
@@ -227,8 +232,8 @@ the dashboard aims to investiigate the relationship between weather and london_b
 
 figure  4.1
 ![image](https://github.com/user-attachments/assets/11882135-471b-43d3-8709-0b3594be2be6)
-The donut chart measure percentage of london_bike_sharing_shares shared in various weather condition
-In the first layer of donut chart,the majority of weather was good weather(92%),rather than bad weather(8%). In the second layer,the good and bad weather was broken 4 and 2 weather respectively.The "clear"(36%),"few clouds"(30%) and "broken clouds"(21%)  were evenly distributed, except"cloudy"(5%). Regarding bad weather, majority of bike shares was occupied by "light rain"(9%).However,both "snowball" and rain with thunderstorm was less than 1%.
+The donut chart measure the percentage of london_bike_sharing_shares shared in various weather condition
+In the first layer of donut chart,the majority of weather was good weather(92%),rather than bad weather(8%). In the second layer,the good and bad weather was broken 4 and 2 weather respectively.The "clear"(36%),"few clouds"(30%) and "broken clouds"(21%)  were evenly distributed, except"cloudy"(5%). Regarding bad weather, majority of bike shares was accounted by "light rain"(9%).However,both percentage of "snowball" and rain with thunderstorm is less than 1%.
 
 figure 4.2
 ![image](https://github.com/user-attachments/assets/da2269b5-813f-4611-b4b5-50f6cb65af67)
@@ -242,7 +247,7 @@ figure 4.3 overall monthly trend of good and bad weather
 ![image](https://github.com/user-attachments/assets/27ab1481-8182-4ad6-88e0-8c0a0d8267f0)
 
 
-The line graph in figure 4.3 depict the monthly seasonal trend of good weather (the gradual increase was observed in April and peaked at July, August and September) in terms of 3 monthly moving average,which is higher than bad weather thoughtout the 12 months. The bad weather did not show seasonal trend. Similarliy, In figure 4.4,the 3 monthly moving average of clear weather followed the same seasonal trend. It is noted that the monthly moving average of clear weather ranging from 1k to 8k occupied the majority of good weather ranging from 4k to 10k. Therefore, the rest of good weather is only occupied the minority of good weather. 
+The line graph in figure 4.3 depict the monthly seasonal trend of good weather (the gradual increase was observed in April and peaked at July, August and September) in terms of 3 monthly moving average,which was higher than bad weather thoughtout the 12 months. The bad weather did not show seasonal trend. Similarliy, In figure 4.4,the 3 monthly moving average of clear weather followed the same seasonal trend. It is noted that the monthly moving average of clear weather ranging from 1k to 8k occupied the majority of good weather ranging from 4k to 10k. Therefore, the rest of good weather only comprised the minority of good weather. 
 
 
 
@@ -267,15 +272,15 @@ The average,mean and frequency of actual_temperature (10 bins）
 ![image](https://github.com/user-attachments/assets/52b5581e-4169-48b0-b826-9585b3831c54)
 
 
-It is found that the higher the average bike sharing, the larger the actual temperature group. However,actual temperature (bins)(8.80-12.39) is the highest frequency, but actual temperature (bins)(16.00-19.59) contributing the largest bike sharing shares among other groups thoughtout 2 years.
+It is found that the higher the average bike sharing, the larger the actual temperature group. However,actual temperature (bins)(8.80-12.39) contributed the highest frequency, but actual temperature (bins)(16.00-19.59) contributed the largest bike sharing shares among other groups thoughtout 2 years.
 
 
 figure 5.3
 ![image](https://github.com/user-attachments/assets/0624dbb2-0d4c-4806-afd0-5b0696b70da7)
 
-The pie chart show distribution of total bike sharing shares in percieved_temperature difference（actual temperature-percieved temperature). 0 temperature difference (green legend(71.45&))demonstrated has occupied majority of total bike sharing shares among others.
+The pie chart show distribution of total bike sharing shares in percieved_temperature difference（actual temperature-percieved temperature). 0 temperature difference (green legend(71.45&))demonstrated it comprised majority of total bike sharing shares among others.
 
-In view of this, the column "optimal temperature"(0 temperature difference) and measure "Count of optimal temperature is created for investigate the trend of optimal temperature. The dax function is written below.
+In view of this, the column "optimal temperature"(0 temperature difference) and measure "Count of optimal temperature was created for investigate the trend of optimal temperature. The dax function is written below.
 
 figure 5.4
 ![image](https://github.com/user-attachments/assets/b6bf92d3-1a1d-4745-81e7-f7fde49cc6e3)
@@ -330,8 +335,7 @@ By adjusting season slicers,it is found that the majority of percieved temperatu
 
 Implication
 
-optimal temperature may implied customers has watched weather forcasting in advance.It provide possible explanaiton for why there has been strong positive correlation between         average_bike_sharing_shares and average temperature. The customers who have
-watched weather forcasting contribute the largest proportion of bike_sharing shares indicating large Customers base in spring,fall and particularly summer.Therefore, the strength of correlation between monthly average of bike_sharing_shares and average of actual_temperature  is stronger when the optimal temperature slicers is adjusted to "yes". Specifically, they prefered lending the bike when temperature range from 12.40-19.59. 
+optimal temperature may implied customers has watched weather forcasting in advance.It provide possible explanaiton for why there has been strong positive correlation between average_bike_sharing_shares and average temperature. The customers who have watched weather forcasting contribute the largest proportion of bike_sharing shares indicating large Customers base in spring,fall and particularly summer.Therefore, the strength of correlation between monthly average of bike_sharing_shares and average of actual_temperature  is stronger when the optimal temperature slicers is adjusted to "yes". Specifically, they prefered lending the bike when temperature range from 12.40-19.59. 
 
 suggestion
 
@@ -372,7 +376,7 @@ figure 6.5
 
 By applied 12pm to 5pm in the time slicers in figure 6.3,the distribution of wind speed and actual_temperature between 12pm to 5pm was investigated. 
 
-In figure 6.4,it was found that the average bike sharing are evenly distributed and in the first five wind_speed(bins), the rest of 4 groups show relatively low average bike sharing shares.The frquency of wind_speed(16.95-22.59) is the highest among 10 groups, the majority of total bikes sharing was  distributed to wind_speed(16.95-22.59)
+In figure 6.4,it was found that the average bike sharing are evenly distributed and in the first five wind_speed(bins), the rest of 4 groups show relatively low average bike sharing shares.The frquency of wind_speed(16.95-22.59) was the highest among 10 groups, the majority of total bikes sharing was  distributed to wind_speed(16.95-22.59)
 
 
 In figure 6.5,it was found that the higher the average bike sharing, the larger the actual temperature group.
@@ -383,7 +387,6 @@ Implication
 Customers prefer lending the bikes between 12:00 and 5:00 in the weekend. Wind_speed and temperature also play an crucial role in determining the bike sharing shares in this golden period.
 
 1)In General,More bike should be allocated when Wind speed range from 5.65 to 16.95.
-
 
 2)More bike should be allocated when Wind speed ranging from 0 to 28.24, in the golden period.
 
