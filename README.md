@@ -1,6 +1,10 @@
 # london-bike-sharing-shares
 The operational dashboard help business make sense of the relationship between weather and sport, in order to allocate resource in specified weather condition or time to optimize the revenue effectively. In detail, how the time and weather in determining the bike sharing shares between 2015 and 2017 was analyzed by Powerbi
 
+# About data source
+the data was downloaded from kaggle
+https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset
+
 # data cleaning 
 
 Step 1 :Load data from csv file into Power BI Desktop, and Open power query editor & in view tab under Data preview section
