@@ -311,23 +311,27 @@ in figure 5.8
 figure 5.9
 
 percieved temperature difference by bike sharing shares in fall
+
 ![image](https://github.com/user-attachments/assets/312fb411-499f-4811-87ed-db71a6d32ba9)
 
 
 figure 5.10
 
 percieved temperature difference by bike sharing shares in spring
+
 ![image](https://github.com/user-attachments/assets/194a2e0a-9ee7-43b4-ad9f-55326df08cc6)
 
 
 figure 5.11
 
 percieved temperature difference by bike sharing shares in summer
+
 ![image](https://github.com/user-attachments/assets/f01d39d5-9851-433b-903d-a8be951842f1)
 
 figure  5.12
 
 percieved temperature difference by bike sharing shares in winter
+
 ![image](https://github.com/user-attachments/assets/a3b15095-5f6f-4272-a58e-427e8d3f4819)
 
 By adjusting season slicers,it is found that the majority of percieved temperature difference is  0 (optimal temperature) in summer(91.89%),spring(62.6%),fall(81.53%),but not winter(32.26%)
