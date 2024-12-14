@@ -112,7 +112,8 @@ the dax function is written below
 
 
 # Data visualization
-Dashboard1：Overview
+
+# Dashboard1：Overview
 
 ![image](https://github.com/user-attachments/assets/0b8aef59-225e-4d36-b285-33f60f434f8e)
 
@@ -144,7 +145,7 @@ figure 1.4
 
 The y_axis of two histogram displayed the frequency of actual_temperature and perceived temperature respectively . The x_axis represent the width of bar of actual and perceived temperature shown on the Table.The top three  percentage of actual_temperature range(5.20-8.79,8.80-12.39,12.40-15.99)was comprised 15.59%,25.20% and 20.54% respectively. Similarliy,The top two occurance of percieved_temperature range(6-9,14-17) comprised 14.87%,24.57%.respectively.The distribution of percieved_temperature histogram appears slightly skewed to the right as comparaed to actual_temperature histogram, However,both histogram suggesting both percieved and actual temperature (smaller than 17) accounted for the majority of the data.  
 
-Dashboard2:seasonal trend of london_bike_sharing_shares
+# Dashboard2:seasonal trend of london_bike_sharing_shares
 
 ![image](https://github.com/user-attachments/assets/f58c6dc6-a8ae-4c2a-8650-7894a4d56f91)
 
@@ -178,7 +179,7 @@ Implication
 The seasonal peak of monthly_moving_average in August is the average of June,July and August (the three months represent summer).It implied the more bike should be prepared for these three months.
 
 
-Dashboard3: weekend and holiday
+# Dashboard3: weekend and holiday
 
 ![image](https://github.com/user-attachments/assets/e601a999-a7ff-45a7-bb69-e4f39b8f7940)
 
@@ -252,7 +253,8 @@ Implication
 
 2.)In daytime level,more bike should be allocated to 8pm,5/6pm when the day is weekday. The allocation of bike should be increased from 9pm to 1:00 pm, and decreased afterward when the day is weekend or holiday.
 
-dashboard 4: weather
+
+# dashboard 4: weather
 
 ![image](https://github.com/user-attachments/assets/b68dc90c-44c0-4495-bd53-9d3ba964d92c)
 
@@ -288,7 +290,7 @@ Implication
 more bike should be allocated in the good weather, Specifically clear weather in summer(June,July August). In contrast,less bike should be allocated in the bad weather,particular light rain.
 
 
-dashboard 5 temperature
+# dashboard 5 temperature
 
 ![image](https://github.com/user-attachments/assets/3f5b850d-62f0-40c9-badc-09b4acc49621)
 
@@ -393,12 +395,11 @@ suggestion
  
 3. It is found lower total bike_sharing_shares, higher average_bike_sharing_shares. It implied  the presence of small group of customers lent the largest quantity of bike,showing strong customer loyalty. It is important to stay contact and allocate more bike for them.
 
-Dashboard 6： wind speed and actual temperature
+# Dashboard 6： wind speed and actual temperature
 
 ![image](https://github.com/user-attachments/assets/028c2738-2bec-424e-bd61-825eb4129c06)
 
 The Dashboard aims to discover the association between wind speed /actual temperature and bike_sharing_shares over the daytime
-
 
 figure 6.1
 
@@ -436,6 +437,7 @@ It is expected that frequency of temperature was the highest in actual_temperatu
 
 
 Implication
+
 Customers prefer lending the bikes between 12:00 and 5:00 in the weekend. Wind_speed and temperature also play an crucial role in determining the bike sharing shares in this golden period.
 
 1)In General,More bike should be allocated when Wind speed range from 5.65 to 16.95.
