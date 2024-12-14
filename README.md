@@ -109,6 +109,9 @@ the dax function is written below
 - correlation between actual_temperature(10 bins) and average of london_bike_sharing_shares is calculated over daytime,
 - the dax function is written below
 
+![image](https://github.com/user-attachments/assets/cf7cab40-3cf9-47eb-ba42-d1bfa13362ad)
+
+![image](https://github.com/user-attachments/assets/6866d6a8-290e-438a-9d39-a1f5c5a5b881)
 
 
 # Data visualization
