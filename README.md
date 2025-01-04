@@ -175,21 +175,10 @@ aims to investigate the association between temperature and london_bike_sharing_
 The strongly positive correlation(0.73) is observed  between actual temperature with 1 monthly moving average of bike sharing shares over 24 months other than other monthly moving average. 
 
 
-figure 4.2
-
-The average,mean and frequency of actual_temperature (10 bins）
-
-![image](https://github.com/user-attachments/assets/52b5581e-4169-48b0-b826-9585b3831c54)
-
-
 It is found that the higher the average bike sharing, the larger the actual temperature group. However,actual temperature (bins)(8.80-12.39) contributed the highest frequency, but actual temperature (bins)(16.00-19.59) contributed the largest bike sharing shares among other groups thoughtout 2 years.
 
 
-figure 4.3
-
-![image](https://github.com/user-attachments/assets/0624dbb2-0d4c-4806-afd0-5b0696b70da7)
-
-The pie chart show distribution of total bike sharing shares in percieved_temperature difference（actual temperature-percieved temperature). 0 temperature difference (green legend(71.45&))demonstrated it comprised majority of total bike sharing shares among others.
+The pie chart show distribution of total bike sharing shares in percieved_temperature difference（actual temperature-percieved temperature). 0 temperature difference (green legend(71.45&))demonstrated it is the majority of total bike sharing shares among others.
 
 In view of this, the column "optimal temperature"(0 temperature difference) and measure "Count of optimal temperature was created for investigate the trend of optimal temperature. The dax function is written below.
 
@@ -205,55 +194,11 @@ figure 4.6
 
 ![image](https://github.com/user-attachments/assets/cd7f9277-3617-4138-a0d0-8e6b745c43d7)
 
-By adjusting optimal temperature to "yes", the correlation coefficient is increased from 0.73 to 0.99. The positive association between monthly_moving_average of london_bike_sharing_shares and actual_temperature is stronger.
+By adjusting optimal temperature to "yes", the correlation coefficient is increased from 0.73 to 0.99. The positive association between monthly_moving_average of london_bike_sharing_shares and actual_temperature is stronger
 
+if adjusting optimal temperature slicers to "yes",In Pie chart,The largest contribution of bike sharing shares has shifted from actual temperature ctual temperature (bins)(16.00-19.59) in to (12.40-15.99 and 16.00-19.59)
 
-figure 4.7
-
-The average,mean and frequency of actual_temperature (10 bins）
-
-![image](https://github.com/user-attachments/assets/52b5581e-4169-48b0-b826-9585b3831c54)
-
-                 
-figure 4.8         
-
-average,mean and frequency of actual_temperature (10 bins） if adjusting optimal temperature slicers to "yes"
-
-![image](https://github.com/user-attachments/assets/14346533-f88a-40f1-b233-949e0da999e5)
-
-The largest contribution of bike sharing shares has shifted from actual temperature ctual temperature (bins)(16.00-19.59) in figure 4.7 to (12.40-15.99 and 16.00-19.59)
-in figure 4.8
-
-
-
-figure 4.9
-
-percieved temperature difference by bike sharing shares in fall
-
-![image](https://github.com/user-attachments/assets/312fb411-499f-4811-87ed-db71a6d32ba9)
-
-
-figure 4.10
-
-percieved temperature difference by bike sharing shares in spring
-
-![image](https://github.com/user-attachments/assets/194a2e0a-9ee7-43b4-ad9f-55326df08cc6)
-
-
-figure 4.11
-
-percieved temperature difference by bike sharing shares in summer
-
-![image](https://github.com/user-attachments/assets/f01d39d5-9851-433b-903d-a8be951842f1)
-
-figure 4.12
-
-percieved temperature difference by bike sharing shares in winter
-
-![image](https://github.com/user-attachments/assets/a3b15095-5f6f-4272-a58e-427e8d3f4819)
-
-By adjusting season slicers,it is found that the majority of percieved temperature difference is  0 (optimal temperature) in summer(91.89%),spring(62.6%),fall(81.53%),but not winter(32.26%)
-
+By adjusting season slicers,it is found that the majority of percieved temperature difference is in summer
 
 Implication
 
@@ -273,44 +218,21 @@ suggestion
 
 The Dashboard aims to discover the association between wind speed /actual temperature and bike_sharing_shares over the daytime
 
-figure 5.1
+Both orange and blue color card showed very strong positve correlation between wind  speed/actual temperature and london_bike_sharing over daytime respectively when is_weekend slicers is applied.
 
-![image](https://github.com/user-attachments/assets/d9152b31-5a1c-4c38-b658-1c1f7d39d432)
-Both orange and blue color card showed very strong positve correlation between wind  speed/actual temperature and london_bike_sharing over daytime respectively when is_weekend slicers is applied.The combo chart demonstrated both wind  _speed and temperature follow the similar seasonal trend as london_bike_sharing. Specifically, moderate increase is observed from 8am ,and leveled off at 12pm, followed by moderate decrease at 4pm.It is noted that
-top 5 average bike bike_sharing_shares was between 12pm to 5pm
+The combo chart demonstrated both wind  _speed and temperature follow the similar seasonal trend as london_bike_sharing.
 
-figure 5.2
-
-![image](https://github.com/user-attachments/assets/2e7f95da-4e05-4443-8d18-44c7f9db5571)
-
-In figure 6.2, no slicers were applied. It was found that the top 3 largest average bike sharing shares was wind speed bin (5.65-11.29)(11.30-16.94)(16.95-22.59) as a result of the largest totla bike sharing shares.
-
-
-figure 5.3
-
-![image](https://github.com/user-attachments/assets/053eb4cc-fbc1-4336-9c8a-549475d29394)
-
-figure 5.4
-
-![image](https://github.com/user-attachments/assets/5917b6f1-2d08-42fc-b61b-2bc08ec086cc)
-
-figure 5.5
-
-![image](https://github.com/user-attachments/assets/ac336aa3-8ad6-469a-8f8d-a63fe502fed4)
-
-
+ When no slicers were applied, it was found that the top 3 largest average bike sharing shares was wind speed bin (5.65-11.29)(11.30-16.94)(16.95-22.59) as a result of the largest totla bike sharing shares.
+ 
 By applied 12pm to 5pm in the time slicers in figure 6.3,the distribution of wind speed and actual_temperature between 12pm to 5pm was investigated. 
 
-In figure 5.4,it was found that the average bike sharing are evenly distributed and in the first five wind_speed(bins), the rest of 4 groups show relatively low average bike sharing shares.The frquency of wind_speed(16.95-22.59) was the highest among 10 groups, the majority of total bikes sharing was  distributed to wind_speed(16.95-22.59)
-
-
-In figure 5.5,it was found that the higher the average bike sharing, the larger the actual temperature group.
-It is expected that frequency of temperature was the highest in actual_temperature(16.00-19.59). As a result,the majority of total bikes sharing was also distributed to temperature (16.00-19.59)
+the majority of total bikes sharing was  distributed to wind_speed(16.95-22.59)
+the majority of total bikes sharing was also distributed to temperature (16.00-19.59)
 
 
 Implication
 
-Customers prefer lending the bikes between 12:00 and 5:00 in the weekend. Wind_speed and temperature also play an crucial role in determining the bike sharing shares in this golden period.
+Customers prefer lending the bikes between 12:00 and 5:00(gloden period) in the weekend. Wind_speed and temperature also play an crucial role in determining the bike sharing shares in this golden period.
 
 1)In General,More bike should be allocated when Wind speed range from 5.65 to 16.95.
 
