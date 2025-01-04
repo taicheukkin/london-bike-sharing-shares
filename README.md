@@ -134,10 +134,6 @@ The seasonal peak of monthly_moving_average in August is the average of June,Jul
 
 ![image](https://github.com/user-attachments/assets/e601a999-a7ff-45a7-bb69-e4f39b8f7940)
 
-figure 2.1
-
-![image](https://github.com/user-attachments/assets/96507ce8-f674-40cf-ba51-0938efd26dbc)
-
 Month slicer aims to show daily moving average each month. day slicers adjust the
 the number of daily moving average.the default is 2
 
