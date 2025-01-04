@@ -95,14 +95,7 @@ Dax function for creating daily moving average is written below
 
 
 step 9 calculate correlation
-- correlation between actual_temperature and monthly moving average london_bike_sharing_shares is calculated over 24 months in 2 years ,
-the dax function is written below
-
-![image](https://github.com/user-attachments/assets/64bb9272-6bcf-42e6-81cf-571d142edd23)
-
-![image](https://github.com/user-attachments/assets/70a43b9f-949b-49b5-9533-e83f51a65ea9)
-
-
+- correlation between actual_temperature and monthly moving average london_bike_sharing_shares is calculated over 24 months in 2 years.
 - correlation between wind_speed(10 bins) and average of london_bike_sharing_shares is calculated over daytime,
   
 - correlation between actual_temperature(10 bins) and average of london_bike_sharing_shares is calculated over daytime,
