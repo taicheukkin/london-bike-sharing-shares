@@ -104,14 +104,9 @@ the dax function is written below
 
 
 - correlation between wind_speed(10 bins) and average of london_bike_sharing_shares is calculated over daytime,
-- the dax function is written below
-
-![image](https://github.com/user-attachments/assets/1eabbd37-25b0-40b5-b167-90889fb592a8)
-
-![image](https://github.com/user-attachments/assets/bdaf21a0-8ee1-4775-a724-4662c4ac4709)
-
+  
 - correlation between actual_temperature(10 bins) and average of london_bike_sharing_shares is calculated over daytime,
-- the dax function is written below
+- the example of dax function is written below
 
 ![image](https://github.com/user-attachments/assets/cf7cab40-3cf9-47eb-ba42-d1bfa13362ad)
 
