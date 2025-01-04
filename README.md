@@ -163,6 +163,7 @@ The bar chart showed average number of london_bike_sharing shares in various wea
 The line graph in figure 4.3 depict the monthly seasonal trend of good weather (the gradual increase was observed in April and peaked at July, August and September) 
 
 Implication
+
 more bike should be allocated in the good weather, Specifically clear weather in summer(June,July August). In contrast,less bike should be allocated in the bad weather,particular light rain.
 
 
