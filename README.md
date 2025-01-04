@@ -190,9 +190,6 @@ figure 4.5
 
 ![image](https://github.com/user-attachments/assets/54098b11-ff5d-46bf-87eb-618fd2bb5d44)
 
-figure 4.6
-
-![image](https://github.com/user-attachments/assets/cd7f9277-3617-4138-a0d0-8e6b745c43d7)
 
 By adjusting optimal temperature to "yes", 
 
