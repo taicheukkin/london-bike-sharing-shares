@@ -134,7 +134,6 @@ The seasonal peak of monthly_moving_average in August is the average of June,Jul
 
 ![image](https://github.com/user-attachments/assets/e601a999-a7ff-45a7-bb69-e4f39b8f7940)
 
-
 figure 2.1
 
 ![image](https://github.com/user-attachments/assets/96507ce8-f674-40cf-ba51-0938efd26dbc)
@@ -142,59 +141,7 @@ figure 2.1
 Month slicer aims to show daily moving average each month. day slicers adjust the
 the number of daily moving average.the default is 2
 
-figure 2.2
-
-![image](https://github.com/user-attachments/assets/adab6411-41dc-459d-a28a-f39c87b18cd7)
-
-figure 2.3
-
-![image](https://github.com/user-attachments/assets/26f82967-2219-41a7-b7e6-bd3fb6b4f199)
-
-figure 2.4
-
-![image](https://github.com/user-attachments/assets/ad9d9afe-aeb9-49ac-b48b-70c59de69bda)
-
-figure 2.5
-
-![image](https://github.com/user-attachments/assets/44c67f7a-ff01-437f-bcd4-b080d3562fe0)
-
-The bar chart showed the daytime trend of average bike sharing share.Overall,8am, 5am,6am are top 3 daytime in terms of  average bike sharing shares in figure3.2.The trend were similar when it was weekend in figure 3.3. In contrast,In figure 3.4 and 3.5, the rise and fall trend was observed between 7 am
-and 11:00 pm, the average london_bike_sharing_shares increased gradual at 7am ,leveled off 12 pm,followed by gradual decrease from 2pm to 11pm.
-
-
-
-figure 2.7
-
-![image](https://github.com/user-attachments/assets/3dd0a0d3-ddf2-422c-8c47-e0d90aec6e36)
-
-Overall,the x_axis and y_axis of bar chart is the date at the daily level and daily_moving_average respectively.The green and blue color bar represent the calculation of daily moving average involving weekend or non-weekend respectively.By adjusting day slicers, it is found that typically 5 blue bar chart with smaller daily_moving_average followed by green bar chart with higher daily_moving_average in 2_day moving average. It is implied There were association between seasonal trend between weekday and weekend.
-
-
-Although the most month follow seasonal trend, Juanary and December were the exception.
-
-figure 2.7
-
-![image](https://github.com/user-attachments/assets/9cfbd192-0e67-4b1d-b5a7-efd7bc983deb)
-
-figure 2.8
-
-![image](https://github.com/user-attachments/assets/5da6e750-a2fc-45e0-bbdc-d38235e822eb)
-
-figure 2.9
-
-![image](https://github.com/user-attachments/assets/b6ce3b93-7b9f-4af1-97ee-60eb5467961d)
-
-In figure 1,in 26th December,2016,the 2-day monthly_moving_average involving non_weekend was higher than weekend. The trend was not discovered in 2015 in figure 2. By adjusting is_holiday and is_weekend slicer to Yes and daily_moving_average to 1, it is discovered that 26th December,2016 is holiday in figure 3,but not weekend. It means holiday(26th December,2016) contributed the largest proportion to non_weekend when calculating daily_moving_average. 
-
-figure 2.10
-
-![image](https://github.com/user-attachments/assets/423f243b-e9cd-430d-a2b2-769df8a03aed)
-
-figure 2.11
-
-![image](https://github.com/user-attachments/assets/bed4d33d-b225-4bf6-8254-07a9550e8343)
-same logic applied 1st and 2nd Juanary 2016 and 2017,the 2-day monthly_moving_average involving non_weekend was higher than weekend in 2016,By adjusting is_holiday and is_weekend slicer to Yes and daily_moving_average to 1 again,it is discovered that 1st and 2nd Juanary 2016 was holiday in figure 3,but not weekend.
-Therefore the proportion of moving average of holiday was considered as non_weekend. In contrast,the 2-day monthly_moving_average involving non_weekend is drastically lower than weekend in 2016.The possible explanaiton was 1st and 2nd Juanary 2017 was holiday in essence,but since it was weekend as well is not applicable to the definition of holiday and non_weekend, but weekend. 
+The two bar chart showed the daytime and daily level of average bike sharing share respectively
 
 Implication
 
@@ -209,31 +156,11 @@ Implication
 
 the dashboard aims to investiigate the relationship between weather and london_bike_sharing_shares.
 
-figure  3.1
-
-![image](https://github.com/user-attachments/assets/11882135-471b-43d3-8709-0b3594be2be6)
 The donut chart measure the percentage of london_bike_sharing_shares shared in various weather condition
-In the first layer of donut chart,the majority of weather was good weather(92%),rather than bad weather(8%). In the second layer,the good and bad weather was broken 4 and 2 weather respectively.The "clear"(36%),"few clouds"(30%) and "broken clouds"(21%)  were evenly distributed, except"cloudy"(5%). Regarding bad weather, majority of bike shares was accounted by "light rain"(9%).However,both percentage of "snowball" and rain with thunderstorm is less than 1%.
-
-figure 3.2
-
-![image](https://github.com/user-attachments/assets/da2269b5-813f-4611-b4b5-50f6cb65af67)
 
 The bar chart showed average number of london_bike_sharing shares in various weather condition. Blue bar(good weather)show higher average number of london_bike_sharing shares as comapred to green bar(bad weather).
 
-
-figure 3.3 overall monthly trend of good and bad weather
-
-![image](https://github.com/user-attachments/assets/3cafd67d-23e5-4be1-b237-fad217ffe8e3)
-
- figure 3.4 monthly trend of clear weather 
-
-![image](https://github.com/user-attachments/assets/27ab1481-8182-4ad6-88e0-8c0a0d8267f0)
-
-
-The line graph in figure 4.3 depict the monthly seasonal trend of good weather (the gradual increase was observed in April and peaked at July, August and September) in terms of 3 monthly moving average,which was higher than bad weather thoughtout the 12 months. The bad weather did not show seasonal trend. Similarliy, In figure 4.4,the 3 monthly moving average of clear weather followed the same seasonal trend. It is noted that the monthly moving average of clear weather ranging from 1k to 8k occupied the majority of good weather ranging from 4k to 10k. Therefore, the rest of good weather only comprised the minority of good weather. 
-
-
+The line graph in figure 4.3 depict the monthly seasonal trend of good weather (the gradual increase was observed in April and peaked at July, August and September) 
 
 Implication
 more bike should be allocated in the good weather, Specifically clear weather in summer(June,July August). In contrast,less bike should be allocated in the bad weather,particular light rain.
@@ -245,11 +172,7 @@ more bike should be allocated in the good weather, Specifically clear weather in
 
 aims to investigate the association between temperature and london_bike_sharing_shares.
 
-figure 4.1
-
-![image](https://github.com/user-attachments/assets/6e4222c5-b9fe-46a7-952f-1bee054964e1)
-
-The strongly positive correlation(0.73) is observed  between actual temperature with 1 monthly moving average of bike sharing shares over 24 months other than other monthly moving average. Specifically, seasonal trend of actual actual_temperature was almost overlapped with monthly moving average of bike sharing share in the line graph.
+The strongly positive correlation(0.73) is observed  between actual temperature with 1 monthly moving average of bike sharing shares over 24 months other than other monthly moving average. 
 
 
 figure 4.2
