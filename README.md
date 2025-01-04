@@ -119,18 +119,14 @@ figure 1.1
 
 The Monthly moving average slicer allows users to choose number of monthly moving average to identify monthly,seasonal or half-year trend was existed in the london_bike_sharing_shares.The default value is 4 monthly moving average
 
-
 The Season slicer allows user to identify which 3 months is corresponding to season
-
-figure 1.2
-![image](https://github.com/user-attachments/assets/1bbc85fc-fbf1-42a3-94c0-5688349d530e)
 
 the table provide detailed date information(year/MonthNameShort) and monthly moving average,allow users check the monthly_moving_average. 
 
-the 3 monthly_moving_average was choosen
-,because the data is more smoothing as compared to 2 monthly_moving_average, and sensitive to the seasonal trend as compared to 4 monthly_moving_average.
+the 3 monthly_moving_average was choosen,because the data is more smoothing as compared to 2 monthly_moving_average, and sensitive to the seasonal trend as compared to 4 monthly_moving_average.
 
 Implication
+
 The seasonal peak of monthly_moving_average in August is the average of June,July and August (the three months represent summer).It implied the more bike should be prepared for these three months.
 
 
