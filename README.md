@@ -251,7 +251,7 @@ figure 3.11
 
 ![image](https://github.com/user-attachments/assets/bed4d33d-b225-4bf6-8254-07a9550e8343)
 same logic applied 1st and 2nd Juanary 2016 and 2017,the 2-day monthly_moving_average involving non_weekend was higher than weekend in 2016,By adjusting is_holiday and is_weekend slicer to Yes and daily_moving_average to 1 again,it is discovered that 1st and 2nd Juanary 2016 was holiday in figure 3,but not weekend.
-Therefore the proportion of moving avereage of holiday was considered as non_weekend. In contrast,the 2-day monthly_moving_average involving non_weekend is drastically lower than weekend in 2016.The possible explanaiton was 1st and 2nd Juanary 2017 was holiday in essence,but since it was weekend as well that is not applicable to the definition of holiday and non_weekend, but weekend.
+Therefore the proportion of moving average of holiday was considered as non_weekend. In contrast,the 2-day monthly_moving_average involving non_weekend is drastically lower than weekend in 2016.The possible explanaiton was 1st and 2nd Juanary 2017 was holiday in essence,but since it was weekend as well that is not applicable to the definition of holiday and non_weekend, but weekend.
 
 Implication
 
