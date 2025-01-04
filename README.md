@@ -194,11 +194,16 @@ figure 4.6
 
 ![image](https://github.com/user-attachments/assets/cd7f9277-3617-4138-a0d0-8e6b745c43d7)
 
-By adjusting optimal temperature to "yes", the correlation coefficient is increased from 0.73 to 0.99. The positive association between monthly_moving_average of london_bike_sharing_shares and actual_temperature is stronger
+By adjusting optimal temperature to "yes", 
 
-if adjusting optimal temperature slicers to "yes",In Pie chart,The largest contribution of bike sharing shares has shifted from actual temperature ctual temperature (bins)(16.00-19.59) in to (12.40-15.99 and 16.00-19.59)
+-the positive association between monthly_moving_average of london_bike_sharing_shares and actual_temperature is stronger
 
-By adjusting season slicers,it is found that the majority of percieved temperature difference is in summer
+-In Pie chart,The largest contribution of bike sharing shares has shifted from 16.00-19.59 to 12.40-15.99 an 16.00-19.59
+in terms of  actual temperature ctual temperature (bins).
+
+By adjusting season slicers,
+
+- the majority of percieved temperature difference is in summer
 
 Implication
 
@@ -218,16 +223,20 @@ suggestion
 
 The Dashboard aims to discover the association between wind speed /actual temperature and bike_sharing_shares over the daytime
 
-Both orange and blue color card showed very strong positve correlation between wind  speed/actual temperature and london_bike_sharing over daytime respectively when is_weekend slicers is applied.
+when is_weekend slicers is applied.
+
+- Both orange and blue color card showed very strong positve correlation between wind  speed/actual temperature and london_bike_sharing over daytime respectively 
 
 The combo chart demonstrated both wind  _speed and temperature follow the similar seasonal trend as london_bike_sharing.
 
- When no slicers were applied, it was found that the top 3 largest average bike sharing shares was wind speed bin (5.65-11.29)(11.30-16.94)(16.95-22.59) as a result of the largest totla bike sharing shares.
+ When no slicers were applied, 
+ - the top 3 largest average bike sharing shares was wind speed bin (5.65-11.29)(11.30-16.94)(16.95-22.59) as a result of the largest totla bike sharing shares.
  
-By applied 12pm to 5pm in the time slicers in figure 6.3,the distribution of wind speed and actual_temperature between 12pm to 5pm was investigated. 
+When 12pm to 5pm in the time slicers were applied,
 
-the majority of total bikes sharing was  distributed to wind_speed(16.95-22.59)
-the majority of total bikes sharing was also distributed to temperature (16.00-19.59)
+- the majority of total bikes sharing was  distributed to wind_speed(16.95-22.59)
+
+- the majority of total bikes sharing was also distributed to temperature (16.00-19.59)
 
 
 Implication
