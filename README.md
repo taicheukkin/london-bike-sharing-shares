@@ -123,7 +123,6 @@ The Monthly moving average slicer allows users to choose number of monthly movin
 The Season slicer allows user to identify which 3 months is corresponding to season
 
 figure 1.2
-
 ![image](https://github.com/user-attachments/assets/1bbc85fc-fbf1-42a3-94c0-5688349d530e)
 
 the table provide detailed date information(year/MonthNameShort) and monthly moving average,allow users check the monthly_moving_average. 
@@ -131,13 +130,7 @@ the table provide detailed date information(year/MonthNameShort) and monthly mov
 the 3 monthly_moving_average was choosen
 ,because the data is more smoothing as compared to 2 monthly_moving_average, and sensitive to the seasonal trend as compared to 4 monthly_moving_average.
 
-
-the line graph calculated by 3 monthly_moving_average show significant
-consistent seasonal trend from 2015 to 2017.Specifically,the moderate increase was observed from March to September reaching to the peak at approximately 12 thousands in August in 2015,followed by sharply decrease in September 2015 to the lowest point at approximately 5 thousands in March 2016.Likewise, Similar trend was repeated after April 2016. The forcasting feature of analytic pane was adopted,and predict similar seasonal trend are witnessed between 2017 and 2018
-
-
 Implication
-
 The seasonal peak of monthly_moving_average in August is the average of June,July and August (the three months represent summer).It implied the more bike should be prepared for these three months.
 
 
